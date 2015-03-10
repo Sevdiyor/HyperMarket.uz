@@ -1,15 +1,15 @@
 # HyperMarket.uz
 ===
-### Bu sayt qaysidir shahardagi hammaga ma’lum bo’lgan gipermarket bilan oline tarzda a’loqani ta’minlovchi vosita hisoblanadi.   
+### Bu sayt qaysidir shahardagi hammaga ma’lum bo’lgan gipermarket bilan online tarzda a’loqani ta’minlovchi vosita hisoblanadi.   
 ---
-###Saytdan quyidagi maqsadlarda foydalanish mumkin
+###Saytdan quyidagi maqsadlarda foydalanish mumkin  
 
-###Mijozlar uchun:
+###Mijozlar uchun:  
   * Maxsulot narxlari bilan tog’ridan tog’ri tanishish
   * Online tarzda buyurtma berish
   * Gipermarketdagi kafedan stolni band qilib qo’yish
   * Taomlar va ularning narxlari bilan oldindan tanishib ularni buyurtma qilish
-  * Ba’zi bir taomlar uyga keltirib berishlarini buyurish.   
+  * Ba’zi bir taomlar uyga keltirib berishlarini buyurish.    
 
 ###Gipermarket egalari uchun:   
   * Gipermarket haqida to’liq ma’lumot berish(uning yaratilish tarixi va boshqalar)
@@ -31,16 +31,17 @@
 * Kafe     
 
 ###Saytda registratsiyadan o’tish     
----
-Gipermarketdan online tarzda xarid qilish uchun yoki buyurtma berishingiz uchun saytdan registratsiyadan o’tishingiz kerak bo’ladi. Buning uchun quyidagilarni to’ldirishkerak bo’ladi:     
+---   
+Gipermarketdan online tarzda xarid qilish uchun yoki buyurtma berishingiz uchun saytdan registratsiyadan o’tishingiz kerak bo’ladi. Buning uchun quyidagilarni to’ldirish kerak bo’ladi:        
 * Familiyasi, Ismi va Sharifi
 * Saytga kirish uchun login
 * Elektron manzil
 * Doimiy turar joy
 * Online plastic kartochka raqami
-* Mobil telefon raqami     
-Ro’yxatdan o’tish jarayonida yuqoridagi kataklar to’ldirilgach mijozning telefoniga registratsiyadan to’liq o’tish uchun kerak bo’ladigan maxfiy kod boradi va mijoz bu kodni ko’rsatilgan joyga kiritib registratsiya jarayonini davom ettiradi.       
----
+* Mobil telefon raqami      
+Ro’yxatdan o’tish jarayonida yuqoridagi kataklar to’ldirilgach mijozning telefoniga registratsiyadan to’liq o’tish uchun kerak bo’ladigan maxfiy kod boradi va mijoz bu kodni ko’rsatilgan joyga kiritib registratsiya jarayonini davom ettiradi.         
+---    
+
 Mijoz biror online tarzda biror nima xarid qilsa yoki buyurtirsa uning buyurtmasi muvaffaqqiyatli o’tgani haqidagi xabar email manzilga va mobil telefoniga xabar tarzida yetkaziladi.     
-Qoshimcha taklif va istaklar uchun quyidagi electron manzilga murojaat qilishingiz mumkin:    
-sevdiyorhayitov@gmail.com
+Qoshimcha taklif va istaklar uchun quyidagi electron manzilga murojaat qilishingiz mumkin:      
+sevdiyorhayitov@gmail.com   
