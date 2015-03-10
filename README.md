@@ -40,7 +40,7 @@ Gipermarketdan online tarzda xarid qilish uchun yoki buyurtma berishingiz uchun 
 * Online plastic kartochka raqami
 * Mobil telefon raqami
 Ro’yxatdan o’tish jarayonida yuqoridagi kataklar to’ldirilgach mijozning telefoniga registratsiyadan to’liq o’tish uchun kerak bo’ladigan maxfiy kod boradi va mijoz bu kodni ko’rsatilgan joyga kiritib registratsiya jarayonini davom ettiradi.
-***
+---
 Mijoz biror online tarzda biror nima xarid qilsa yoki buyurtirsa uning buyurtmasi muvaffaqqiyatli o’tgani haqidagi xabar email manzilga va mobil telefoniga xabar tarzida yetkaziladi.
 Saytdan foydalanish barchaga qulay bo’lishi uchun uning interfeysi uch tilda ya’ni o’zbek, rus va ingliz tillarida bo’ladi.
 Qoshimcha taklif va istaklar uchun quyidagi electron manzilga murojaat qilishingiz mumkin:
