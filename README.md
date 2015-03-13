@@ -45,6 +45,5 @@ Ro’yxatdan o’tish jarayonida yuqoridagi kataklar to’ldirilgach mijozning t
 Mijoz biror online tarzda biror nima xarid qilsa yoki buyurtirsa uning buyurtmasi muvaffaqqiyatli o’tgani haqidagi xabar email manzilga va mobil telefoniga xabar tarzida yetkaziladi.    
 Saytga o'tish uchun [bunga][] bosing
 [bunga]: http://hypermarket.herokuapp.com/
-http://hypermarket.herokuapp.com/    
 Qoshimcha taklif va istaklar uchun quyidagi electron manzilga murojaat qilishingiz mumkin:      
 sevdiyorhayitov@gmail.com   
