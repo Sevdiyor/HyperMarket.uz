@@ -1,0 +1,30 @@
+@(shirinliklarr: List[shirinlik])
+
+@main("Shirinliklar") {
+
+    @navbar("shirinlik")
+    <div class="main-bg">
+        <div class="container past">
+            <h1 class="text-center">Sweets.</h1>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Shirinlik nomi</th>
+                        <th>Shirinlik rasmi</th>
+                        <th>Shirinlik narxi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                @for(n <- shirinliklarr) {
+                    <tr>
+                        <td>@n.name</td>
+                        <td><img style="width: 20%" src="@routes.Assets.at("images/"+n.imgUrl)" alt=""/></td>
+                        <td>@n.narx</td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    @footer("shirinlik")
+}

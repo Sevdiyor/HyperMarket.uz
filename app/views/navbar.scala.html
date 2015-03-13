@@ -1,0 +1,77 @@
+@(activePage:String)
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <div class="collapse navbar-collapse dav">
+                        <ul class="nav navbar-nav">
+                            <li class="@if(activePage == "home") {active}"><a href="@routes.Application.index()"><b>HOME</b></a></li>
+                            <li class="dropdown act">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    1-bo'lim
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="@if(activePage == "shirinlik") {active}"><a href="@routes.First.shirin()"><strong>Shirinliklar</strong></a></li>
+                                    <li><a href="">Kalbasa va go'sht maxsulotlari</a></li>
+                                    <li><a href="">Sut va sut maxsulotlari</a></li>
+                                    <li><a href="">Non va kulinariya maxsulotlari</a></li>
+                                    <li><a href="">Poliz ekinlari</a></li>
+                                    <li><a href="">Mevalar</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <b>2-bo'lim</b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="">Elektr jixozlar</a></li>
+                                    <li><a href="">Maishiy texnika</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <b>3-bo'lim</b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="">Erkaklar uchun kiyimlar</a></li>
+                                    <li><a href="">Ayollar uchun kiyimlar</a></li>
+                                    <li><a href="">Bolalar uchun kiyimlar</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <b>4-bo'lim</b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="">Esdalik uchun sovg'alar</a></li>
+                                    <li><a href="">O'yinchoqlar</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <b>5-bo'lim</b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="">Uy jixozlar</a></li>
+                                    <li><a href="">Ishxona jixozlari</a></li>
+                                    <li><a href="">Oshxona jixozlari</a></li>
+                                </ul>
+                            </li>
+                            <li class="@if(activePage == "kafe") {active}"><a href="@routes.Application.kafe()"><strong>KAFE</strong></a></li>
+                            <li class="navbar-form col-xs-push-4">
+                                    <input type="text" class="form-control" placeholder="Search">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>

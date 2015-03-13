@@ -1,0 +1,17 @@
+@(activePage:String)
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="text-center">
+                    &copy;  <a href="#">TUITUF </a>2015.
+                <a href="#">Created by Sevdiyor Hayitov</a>
+                <ul class="text-center">
+                    <li class="@if(activePage == "home") {active}"><a href="@routes.Application.index()">Home</a></li>
+                    <li><a href="#">Buyurtma</a></li>
+                    <li class="@if(activePage == "kafe") {active}"><a href="@routes.Application.kafe()">Kafe</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
