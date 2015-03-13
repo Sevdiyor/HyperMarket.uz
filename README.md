@@ -42,7 +42,8 @@ Gipermarketdan online tarzda xarid qilish uchun yoki buyurtma berishingiz uchun 
 Ro’yxatdan o’tish jarayonida yuqoridagi kataklar to’ldirilgach mijozning telefoniga registratsiyadan to’liq o’tish uchun kerak bo’ladigan maxfiy kod boradi va mijoz bu kodni ko’rsatilgan joyga kiritib registratsiya jarayonini davom ettiradi.
 ---
 
-Mijoz biror online tarzda biror nima xarid qilsa yoki buyurtirsa uning buyurtmasi muvaffaqqiyatli o’tgani haqidagi xabar email manzilga va mobil telefoniga xabar tarzida yetkaziladi.
+Mijoz biror online tarzda biror nima xarid qilsa yoki buyurtirsa uning buyurtmasi muvaffaqqiyatli o’tgani haqidagi xabar email manzilga va mobil telefoniga xabar tarzida yetkaziladi.     
+
 Saytga o'tish uchun [bunga][] bosing
 [bunga]: http://hypermarket.herokuapp.com/
 Qoshimcha taklif va istaklar uchun quyidagi electron manzilga murojaat qilishingiz mumkin:
