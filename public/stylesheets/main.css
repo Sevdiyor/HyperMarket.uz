@@ -1,25 +1,30 @@
-
-.navbar {
+.navbar,
+.navbar-inverse,
+.navbar-nav
+{
     border-radius: 0;
-    background: #265a88;
+    background: rgb(122, 77, 168);
     font-weight: bold;
+    font-family: Monaco;
+    font-size: 14px;
     border-color: #265a88;
+    /*padding-bottom: -5px;*/
 }
 
 
 .navbar-inverse .navbar-nav > li > a {
-    /*padding: 5px 12px;*/
+    /*padding: 10px 15px;*/
     /*margin: 0;*/
-    border-radius: 3px;
+    border-radius: 0;
     color: #ffffff;
-    /*line-height: 24px;*/
+    /*line-height: 5px;*/
     display: inline-block;
 }
 
 
 .navbar-inverse .navbar-nav > li > a:hover{
-    background-color: #ffffff;
-    color: darkslategray;
+    background-color: rgb(216, 208, 218);
+    color: blue;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
@@ -27,8 +32,8 @@
 .navbar-inverse .navbar-nav > .active > a:focus,
 .navbar-inverse .navbar-nav > .active > a:active
 {
-    background-color: #ffffff;
-    color: #265a88;
+    background-color: rgb(60, 60, 60);
+    color: chartreuse;
 
 }
 
@@ -36,30 +41,30 @@
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus
 {
-    background-color: #ffffff;
-    color: #265a88;
+    background-color: chartreuse;
+    color: rgb(68, 67, 67);
 
 }
 
 
 
 .dropdown-menu {
-    background-color: #265a88;
-    color: #fff;
+    background-color: rgb(68, 67, 67);
+    color: chartreuse;
 }
 
 .dropdown-menu > li > a {
-    color: #fff;
+    color: #808080;
 }
 
 
 .navbar-inverse .navbar-nav .dropdown-menu > li:hover > a,
-.navbar-inverse .navbar-nav .dropdown-menu > li.active > a,
+.navbar-inverse .navbar-nav .dropdownm-menu > li.active > a,
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus{
-    background-color: #265a88;
-    color: darkslategray;
+    background-color: rgb(60, 60, 60);
+    color: chartreuse;
 }
 
 #footer {
@@ -67,7 +72,7 @@
     padding-top: 30px;
     padding-bottom: 30px;
     color: #fff;
-    background: #2e2e2e;
+    background: rgb(122, 77, 168);
 }
 
 #footer a {
@@ -75,7 +80,7 @@
 }
 
 #footer a:hover {
-    color: #265a88;
+    color: rgb(253, 246, 103);
 }
 
 #footer ul {
@@ -90,7 +95,7 @@
 
 
 .main-bg {
-    background: lightsteelblue;
+    background: rgb(216, 208, 218);
     background-size: cover;
 }
 .main-content {
@@ -151,7 +156,7 @@
 .but:hover,
 .but:active
 {
-    background-color: darkslategray;
+    background-color: chartreuse;
     color: #ffffff;
 }
 
@@ -162,7 +167,7 @@
 .text-fot>li>a:hover,
 .text-fot>li>a:focus
 {
-    color: #265a88;
+    color: rgb(200, 21, 249);
 }
 
 .text-center ul li a{
