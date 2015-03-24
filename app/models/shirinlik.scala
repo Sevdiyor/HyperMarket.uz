@@ -1,22 +1,22 @@
 package models
 
+import javax.swing.text.html.HTML.Tag
+
 /**
  * Created by hacker on 3/13/2015.
  */
 
-case class shirinlik(id:Int, name: String, imgUrl: String, narx: Int)
-object shirinlik{
-  var shirinliklarr = List(
-    shirinlik(3, "Anorli tort", "tort.jpg", 2500),
-    shirinlik(6, "Olmali tort", "tort.jpg", 2200),
-    shirinlik(7, "Tort", "tort.jpg", 30000),
-    shirinlik(9, "Anorli tort", "tort.jpg", 40000),
-    shirinlik(8, "Anorli tort", "tort.jpg", 10000),
-    shirinlik(10, "Anorli tort", "tort.jpg", 15000),
-    shirinlik(11, "Anorli tort", "tort.jpg", 20000),
-    shirinlik(15, "Anorli tort", "tort.jpg", 38000)
+import play.api.db.slick.Config.driver.simple._
 
-  )
-  def findall = shirinliklarr.sortBy(_.id)
+case class Shirinlik(id:Option[Int],
+                     name: String,
+                     imgUrl: String,
+                     narx: Int)
 
+class ShirinlikTable(tag: Tag) extends Table[Shirinlik](tag, "shirinlik"){
+  def id = column[Int]("ID", O.PrimaryKey, O.AutoInc)
+  def name = column[String]("NAME", O.Default(""))
+  def imgUrl = column[String]("IMGURL", O.Default(""))
+  def narx = column[Int]("NARX", O.Default(""))
+  def * = (id.?, name, imgUrl, narx) <> (Shirinlik.tupled, Shirinlik.unapply _)
 }

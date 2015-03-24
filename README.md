@@ -1,4 +1,4 @@
-# HyperMarket.uz
+﻿# HyperMarket
 ===
 ### Bu sayt qaysidir shahardagi hammaga ma’lum bo’lgan gipermarket bilan online tarzda a’loqani ta’minlovchi vosita hisoblanadi.
 ---
